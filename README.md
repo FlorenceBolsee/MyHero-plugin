@@ -25,24 +25,24 @@ Ces effets peuvent tous être combinés avec la gestion de la position de l'imag
 
 #### Gestion de la position
 
-| hero--lefttop | en haut à gauche | 
-| hero--centertop | en haut au centre | 
-| hero--righttop | en haut à droite | 
-| hero--leftcenter| centré verticalement et calé à gauche | 
-| hero--centercenter | centré | 
-| hero--rightcenter | centré verticalement et calé à droite | 
-| hero--leftbottom | en bas à gauche | 
-| hero--centerbottom | en bas au centre | 
-| hero--rightbottom | en bas à droite | 
+- hero--lefttop : en haut à gauche
+- hero--centertop : en haut au centre
+- hero--righttop : en haut à droite
+- hero--leftcenter: centré verticalement et calé à gauche
+- hero--centercenter : centré
+- hero--rightcenter : centré verticalement et calé à droite
+- hero--leftbottom : en bas à gauche
+- hero--centerbottom : en bas au centre
+- hero--rightbottom : en bas à droite
 
 Pour l'effet dégradé, la direction du dégradé peut être modifiée en ajoutant ces classes :
 
 #### Direction du dégradé
 
-| gradient--totop | vers le haut | 
-| gradient--tobottom | vers le bas | 
-| gradient--toleft | vers la gauche | 
-| gradient--toright | vers la droite | 
+- gradient--totop : vers le haut 
+- gradient--tobottom : vers le bas 
+- gradient--toleft : vers la gauche 
+- gradient--toright : vers la droite 
 
 ### Les variables
 

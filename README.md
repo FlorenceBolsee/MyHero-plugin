@@ -11,7 +11,7 @@ Gulp (pour utiliser le fichier variable scss)
 ## Installation :
 - Téléchargez le .zip
 - Liez le fichier *myHero.min.css* dans le head de votre html :
-<link rel="stylesheet" href="css/myHero.min.css">
+`<link rel="stylesheet" href="css/myHero.min.css">`
 - Dans votre dossier src vous aurez besoin du fichier *_variables.scss* pour changer les couleurs et le chemin vers votre image de fond, et du fichier *myHero.scss* qui doit être au même niveau que *style.scss* pour être minifié dans dist et qui doit importer le fichier variable.
 
 ## Utilisation :

@@ -24,6 +24,7 @@ Vous pouvez ajouter les classes du plugin sur un div ou le header.  Voici les cl
 Ces effets peuvent tous être combinés avec la gestion de la position de l'image d'après son conteneur :
 
 #### Gestion de la position
+
 | hero--lefttop | en haut à gauche | 
 | hero--centertop | en haut au centre | 
 | hero--righttop | en haut à droite | 
@@ -37,6 +38,7 @@ Ces effets peuvent tous être combinés avec la gestion de la position de l'imag
 Pour l'effet dégradé, la direction du dégradé peut être modifiée en ajoutant ces classes :
 
 #### Direction du dégradé
+
 | gradient--totop | vers le haut | 
 | gradient--tobottom | vers le bas | 
 | gradient--toleft | vers la gauche | 

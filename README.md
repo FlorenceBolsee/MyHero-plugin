@@ -55,3 +55,4 @@ Dans *_variables.scss* vous pouvez changer :
 - le chemin vers votre image par rapport à votre css dans dist ou une adresse absolue dans $heroBackground
 - la couleur de l'effet overlay dans $heroOverlayColor
 - Les deux couleurs du dégradé dans $heroGradientColor1 et $heroGradientColor2
+- La transparence de l'overlay ou du dégradé avec $heroTransparency, avec une valeur entre 0 et 1.

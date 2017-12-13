@@ -1,1 +1,11 @@
+body {
+  background-color: #131216;
+}
 
+body > * {
+  margin-bottom: 100px;
+}
+
+.hero--position, .hero--gradient {
+  cursor: pointer;
+}

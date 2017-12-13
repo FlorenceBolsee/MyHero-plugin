@@ -54,7 +54,7 @@ gulp.task('compression', function() {
       return gulp.src('src/img/*.{gif,jpg,png,svg, jpeg}')
       .pipe(imagemin())
       .pipe(gulp.dest('dist/img'))
-})
+});
 
 gulp.task('refresh', function() {
   browserSync.init({

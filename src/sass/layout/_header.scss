@@ -18,6 +18,9 @@
   background:
     linear-gradient(to bottom, rgba($heroGradientColor1, $heroTransparency), rgba($heroGradientColor2, $heroTransparency)),
     url($heroBackground);
+  background-size:
+    cover,
+    cover;
 }
 
 .hero--gradient.gradient--totop {

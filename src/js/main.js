@@ -19,31 +19,29 @@ var gradientDirection = [
 
 var i = 0;
 var n = 0;
+var $this;
+
+function changeClass(list){
+  for(n = 0; n < list.length; n++){
+    $this.removeClass(list[n]);
+  }
+  $this.addClass(list[i]);
+  $this.find("p").text(list[i]);
+  if(i >= list.length - 1){
+    i = 0;
+  } else {
+    i ++;
+  }
+}
 
 $(".heroplugin").click(
   function(){
-    var $this = $(this);
+    $this = $(this);
     if($this.hasClass("hero--position")){
-      for(n = 0; n < position.length; n++){
-        $this.removeClass(position[n]);
-      }
-      $this.addClass(position[i]);
-      if(i >= position.length - 1){
-        i = 0;
-      } else {
-        i ++;
-      }
+      changeClass(position);
     }
     if($this.hasClass("hero--gradient")){
-      for(n = 0; n < gradientDirection.length; n++){
-        $this.removeClass(gradientDirection[n]);
-      }
-      $this.addClass(gradientDirection[i]);
-      if(i >= gradientDirection.length - 1){
-        i = 0;
-      } else {
-        i ++;
-      }
+      changeClass(gradientDirection);
     }
   }
 );

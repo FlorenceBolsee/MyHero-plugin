@@ -1,6 +1,10 @@
 # MyHero-plugin
 Exercice de création d'un plugin pour gérer l'image de background d'un header
 
+## Démo :
+[Lien vers la démo](https://htmlpreview.github.io/?https://github.com/FlorenceBolsee/MyHero-plugin/blob/master/dist/index.html)
+Vous pouvez voir les options de changement de position en cliquant sur le bloc "MyHero - control position" et les changements de direction du dégradé en cliquant sur "MyHero - gradient".
+
 ## Prérequis :
 Gulp (pour utiliser le fichier variable scss)
 
